@@ -42,7 +42,6 @@ NOT ("quantum computing" OR "silicon photonics only" OR "free-space optics")
 核心步骤：
 完成论文撰写与代码库的整理。
 
-### 小组分工
 ### 👥 小组分工
 - **辛成诚 202314010225**
   - 制定检索策略与布尔表达式
