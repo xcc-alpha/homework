@@ -62,7 +62,10 @@ NOT ("quantum computing" OR "silicon photonics only" OR "free-space optics")
   - 可视化与文档辅助：生成部分图表（发文量趋势、关键词共现网络）
   - 整理参考文献与提交
 
-
+## 输出
+outputs/tables：共现矩阵、聚类指标、markdown报告
+outputs/figures：年度发文静态图
+outputs/html：浏览器打开交互式彩色聚类图谱（悬停查看节点信息）
 ### 项目结构
 ```text
 photonic_computing_bibliometric/
