@@ -10,3 +10,4 @@
 ├─run_full_analysis.py（一键入口）
 ├─requirements.txt
 └─README.md（同步更新项目说明）
+mkdir docs src outputs outputs\tables outputs\figures outputs\html
