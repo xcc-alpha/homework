@@ -127,13 +127,17 @@ def _generate_vis_html(nodes, edges):
             border: none;
             border-radius: 4px;
             cursor: pointer;
+            font-size: 14px;
+        }}
+        button:hover {{
+            background: #764ba2;
         }}
     </style>
 </head>
 <body>
     <div class="header">
         <h1>🔬 光子计算文献计量分析</h1>
-        <p>交互式知识图谱</p>
+        <p>交互式知识图谱 - 拖动节点、滚轮缩放、双击居中</p>
     </div>
     
     <div id="network"></div>
@@ -148,22 +152,59 @@ def _generate_vis_html(nodes, edges):
     <script type="text/javascript">
         var nodes = new vis.DataSet({nodes_json});
         var edges = new vis.DataSet({edges_json});
+
         var container = document.getElementById('network');
-        var data = {{ nodes: nodes, edges: edges }};
+        var data = {{
+            nodes: nodes,
+            edges: edges
+        }};
         
         var options = {{
             physics: {{
                 enabled: true,
-                stabilization: {{ iterations: 200 }},
+                stabilization: {{
+                    iterations: 200
+                }},
                 barnesHut: {{
                     gravitationalConstant: -26000,
                     centralGravity: 0.3,
                     springLength: 200
                 }}
+            }},
+            interaction: {{
+                navigationButtons: true,
+                keyboard: true,
+                zoomView: true,
+                dragView: true
+            }},
+            nodes: {{
+                font: {{
+                    size: 14,
+                    color: 'black'
+                }}
+            }},
+            edges: {{
+                color: {{
+                    color: 'rgba(0, 0, 0, 0.2)',
+                    highlight: 'rgba(0, 0, 0, 0.6)'
+                }},
+                smooth: {{
+                    type: 'continuous'
+                }}
             }}
         }};
-        
+
         var network = new vis.Network(container, data, options);
+        
+        // 双击居中
+        network.on('doubleClick', function(params) {{
+            if (params.nodes.length > 0) {{
+                network.focus(params.nodes[0], {{
+                    scale: 1.5,
+                    animation: true
+                }});
+            }}
+        }});
     </script>
 </body>
 </html>"""

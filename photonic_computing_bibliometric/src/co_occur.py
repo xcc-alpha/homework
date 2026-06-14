@@ -36,7 +36,7 @@ def build_co(df, top_k=50):
     for kw_str in df['KEYWORDS'].dropna():
         if isinstance(kw_str, str) and len(kw_str) > 0:
             keywords = [k.strip().lower() for k in kw_str.split(';')]
-            keywords = [k for k in keywords if len(k) > 2]
+            keywords = [k for k in keywords if len(k) > 2]  # 过滤过短的词
             all_keywords.extend(keywords)
             keyword_lists.append(keywords)
     
@@ -52,8 +52,10 @@ def build_co(df, top_k=50):
     keyword_to_idx = {kw: i for i, kw in enumerate(top_keywords)}
     
     for keywords in keyword_lists:
+        # 只保留在 top_keywords 中的关键词
         filtered_kws = [kw for kw in keywords if kw in keyword_to_idx]
         
+        # 计算共现
         for i, kw1 in enumerate(filtered_kws):
             for kw2 in filtered_kws[i+1:]:
                 idx1 = keyword_to_idx[kw1]

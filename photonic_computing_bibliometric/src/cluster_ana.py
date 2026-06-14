@@ -39,7 +39,7 @@ def louvain_cluster(co_matrix, edge_thresh=2):
     for i, kw in enumerate(keywords):
         G.add_node(kw)
     
-    # 3. 添加边
+    # 3. 添加边（只保留权重 >= edge_thresh 的边）
     for i in range(len(keywords)):
         for j in range(i+1, len(keywords)):
             weight = co_array[i, j]

@@ -48,11 +48,14 @@ def generate_report_content(base, clus_df, co_mat):
 
 ## 📊 执行摘要
 
-本报告是对光子计算领域学术文献的全面计量学分析结果。
+本报告是对光子计算领域学术文献的全面计量学分析结果。通过数据驱动的方法，
+我们分析了该领域的发展趋势、关键热点和知识结构。
 
 ---
 
 ## 📈 基本统计
+
+### 数据概览
 
 | 指标 | 数值 |
 |------|------|
@@ -60,8 +63,17 @@ def generate_report_content(base, clus_df, co_mat):
 | 总被引次数 | {base.get('total_citations', 0):.0f} |
 | 平均被引次数 | {base.get('avg_citations', 0):.2f} |
 | 总作者数 | {base.get('total_authors', 'N/A')} |
+| 每篇论文平均作者数 | {base.get('avg_authors_per_paper', 0):.2f} |
 | 研究机构数 | {base.get('total_institutions', 'N/A')} |
 | 发表期刊数 | {base.get('total_journals', 'N/A')} |
+
+---
+
+## 🔍 研究热点分析
+
+### 关键词聚类结果
+
+识别出 **{len(clus_df['cluster'].unique())}** 个主要研究热点
 
 ---
 
@@ -71,6 +83,15 @@ def generate_report_content(base, clus_df, co_mat):
 2. **合作特征**: 多机构、多学科的合作研究模式
 3. **研究热点**: 通过共现分析和聚类检测，识别出明确的研究方向
 4. **发展趋势**: 论文发表数量和引用影响在持续增长
+
+---
+
+## 📚 分析方法说明
+
+- **数据来源**: Web of Science (WOS)
+- **共现分析**: 关键词频率统计和共现矩阵构建
+- **聚类方法**: Louvain 社团检测算法
+- **可视化**: 网络分析和交互式知识图谱
 
 ---
 
