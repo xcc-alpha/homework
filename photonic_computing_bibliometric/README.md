@@ -20,11 +20,6 @@
 ```bash
 # 安装依赖
 pip install -r requirements.txt
-
-# 或者使用 conda
-conda create -n photonic-bib python=3.9
-conda activate photonic-bib
-pip install -r requirements.txt
 ```
 
 ### 2. 准备数据
@@ -38,14 +33,8 @@ data/
 
 ### 3. 运行分析
 
-#### 简单运行（推荐）
 ```bash
 python run.py
-```
-
-#### 完整管道运行
-```bash
-python run_pipeline.py
 ```
 
 ## 📁 项目结构
@@ -56,8 +45,6 @@ photonic_computing_bibliometric/
 ├── requirements.txt             # Python 依赖
 ├── config.py                    # 配置文件
 ├── run.py                       # 主运行脚本
-├── run_pipeline.py              # 完整管道脚本
-├── check_cited.py               # 被引用文献检查脚本
 │
 ├── src/                         # 核心模块
 │   ├── __init__.py
@@ -74,16 +61,10 @@ photonic_computing_bibliometric/
 │   ├── sample-wos/             # 输入：WOS 数据
 │   └── processed/              # 自动生成：处理后数据
 │
-├── outputs/                     # 输出目录
-│   ├── figures/                # 生成的图表
-│   ├── tables/                 # 生成的表格
-│   └── html/                   # 交互式网络图
-│
-├── reports/                     # 报告目录
-│   └── bibliometric_report.md  # 自动生成的分析报告
-│
-├── config/                      # 配置文件目录
-└── docs/                        # 文档目录
+└── outputs/                     # 输出目录
+    ├── figures/                # 生成的图表
+    ├── tables/                 # 生成的表格
+    └── html/                   # 交互式网络图
 ```
 
 ## ⚙️ 配置说明
