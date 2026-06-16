@@ -1,0 +1,201 @@
+﻿source,target,weight
+design,photonic crystal,93.0
+design,logic gates,87.0
+logic gates,photonic crystal,72.0
+computing,optical,55.0
+photonics,silicon,53.0
+design,xor,51.0
+design,optical computing,48.0
+compact,design,47.0
+design,photonic crystals,47.0
+optical,photonics,43.0
+design,proposal,42.0
+photonic crystal,realization,42.0
+design,realization,42.0
+logic gates,xor,40.0
+design,implementation,39.0
+design,photonics,38.0
+photonic crystal,proposal,36.0
+optical computing,photonics,36.0
+design,simulation,36.0
+design,nor,36.0
+photonic crystal,ring resonator,35.0
+photonics,silicon photonics,34.0
+optical computing,silicon photonics,34.0
+photonic crystal,xor,33.0
+design,mach-zehnder interferometer,33.0
+design,optical,33.0
+logic gates,proposal,33.0
+logic gates,photonic crystals,33.0
+kerr effect,photonic crystal,33.0
+nor,photonic crystal,32.0
+logic gates,realization,32.0
+optical,optical computing,31.0
+design,gates,29.0
+design,kerr effect,28.0
+design,logic,28.0
+proposal,simulation,28.0
+logic gates,self-collimated beams,27.0
+logic gates,nor,27.0
+design,silicon photonics,27.0
+realization,self-collimated beams,26.0
+design,nand,26.0
+optical,silicon photonics,26.0
+design,self-collimated beams,26.0
+design,networks,25.0
+design,neural-networks,25.0
+logic gates,simulation,25.0
+photonics,training,24.0
+mach-zehnder interferometer,xor,24.0
+nor,xor,24.0
+neural networks,optical computing,23.0
+design,silicon,23.0
+photonic crystal,simulation,23.0
+contrast ratio,design,23.0
+neural networks,optical,23.0
+photonic crystal,self-collimated beams,23.0
+design,ring resonator,22.0
+networks,photonics,22.0
+neural networks,photonics,22.0
+nand,realization,21.0
+nor,realization,21.0
+compact,photonic crystal,21.0
+realization,xor,21.0
+design,filter,21.0
+logic gates,nand,21.0
+design,wave-guides,20.0
+design,switch,20.0
+optical computing,optical neural networks,20.0
+design,multimode interference,20.0
+photonic band gap,photonic crystal,20.0
+design,light,20.0
+kerr effect,logic gates,20.0
+mach-zehnder interferometer,optical computing,20.0
+design,interference,20.0
+artificial-intelligence,photonics,20.0
+computing,design,19.0
+silicon,silicon photonics,19.0
+nand,photonic crystal,19.0
+interference,photonic crystal,19.0
+proposal,realization,18.0
+contrast ratio,photonic crystal,18.0
+artificial intelligence,photonics,18.0
+compact,logic gates,18.0
+logic gates,optical computing,18.0
+photonic crystal,wave-guides,18.0
+nonlinear optics,optical,18.0
+logic gates,photonic band gap,18.0
+fdtd,photonic crystal,18.0
+logic gates,optical,17.0
+optical computing,optical neural network,17.0
+neurons,photonics,17.0
+deep learning,optical computing,17.0
+logic gates,xor gate,17.0
+networks,optical computing,17.0
+design,fdtd,17.0
+logic gates,mach-zehnder interferometer,17.0
+gates,photonic crystal,17.0
+light,logic gates,17.0
+design,efficient,16.0
+networks,silicon photonics,16.0
+optical,optical imaging,16.0
+photonic crystals,realization,16.0
+nand,xor,16.0
+photonic integrated circuits,silicon photonics,16.0
+implementation,optical computing,16.0
+networks,optical neural,16.0
+design,fabrication,16.0
+design,modulator,16.0
+compact,photonics,16.0
+machine learning,optical computing,16.0
+design,gate,16.0
+artificial intelligence,optical computing,16.0
+design,photonic,16.0
+fdtd,logic gates,16.0
+design,photonic band gap,16.0
+memory,phase-change materials,16.0
+kerr effect,nor,15.0
+optical waveguides,photonics,15.0
+modulator,silicon,15.0
+photonic crystals,self-collimated beams,15.0
+all-optical logic gates,xor,15.0
+modulation,photonics,15.0
+interferometer,mach-zehnder,15.0
+nand,nor,15.0
+performance,reservoir computing,15.0
+all-optical logic gates,design,15.0
+microwave photonics,photonic signal processing,15.0
+kerr effect,ring resonator,15.0
+phase-change materials,silicon photonics,15.0
+compact,silicon photonics,15.0
+computing,photonics,15.0
+integrated optics,optical computing,15.0
+neural-networks,optical computing,15.0
+gate,xor,14.0
+machine learning,optical neural networks,14.0
+kerr effect,proposal,14.0
+photonic,silicon photonics,14.0
+computer architecture,photonics,14.0
+optical,optical neural networks,14.0
+optical computing,silicon,14.0
+design,optical neural networks,14.0
+machine learning,photonics,14.0
+implementation,logic gates,14.0
+interference,logic gates,14.0
+artificial-intelligence,optical computing,14.0
+modulation,optical,14.0
+design,parallel,14.0
+neural-networks,photonics,14.0
+inverse design,optimization,14.0
+optical computing,optical imaging,13.0
+contrast ratio,logic gates,13.0
+nor,proposal,13.0
+optical feedback,performance,13.0
+multimode interference,nand,13.0
+photonics,reservoir computing,13.0
+design,msd adder,13.0
+gate,photonic crystal,13.0
+design,resonator,13.0
+gates,logic,13.0
+design,wave-guide,13.0
+photonic integrated circuits,photonics,13.0
+integrated,photonics,13.0
+logic gates,wave-guides,13.0
+modulation,xor,13.0
+inverse design,silicon photonics,13.0
+optical computing,optics,13.0
+band-gap,photonic crystal,13.0
+chaos,synchronization,13.0
+optical,silicon,13.0
+electro-optic effect,optical computing,13.0
+machine learning,optical,13.0
+gates,xor,13.0
+all-optical logic gates,photonic crystal,13.0
+design,optical neural network,13.0
+interference,realization,13.0
+neuromorphic computing,photonics,13.0
+logic gates,ring resonator,12.0
+light,orbital angular-momentum,12.0
+on-chip,system,12.0
+circuits,photonic integrated,12.0
+optical,optical interferometry,12.0
+optical computing,parallel,12.0
+proposal,ring resonator,12.0
+chip,design,12.0
+fdtd,photonic crystals,12.0
+amplifier,mach-zehnder interferometer,12.0
+integrated optics,optical,12.0
+contrast ratio,photonic crystals,12.0
+all-optical logic gate,design,12.0
+adder,design,12.0
+photonic crystal,wave-guide,12.0
+design,neural networks,12.0
+amplifier,design,12.0
+computing,silicon photonics,12.0
+artificial intelligence,design,12.0
+optical,optical signal processing,12.0
+design,transmission,12.0
+optical,optical waveguides,12.0
+demultiplexer,logic gates,12.0
+neuromorphic,photonics,12.0
+compact,optical,12.0

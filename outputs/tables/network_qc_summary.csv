@@ -1,0 +1,5 @@
+﻿n_nodes,n_edges,density,n_communities,modularity,avg_clustering_coefficient,avg_degree,avg_weighted_degree,n_components,largest_component_ratio,network
+95,200,0.0448,8,0.3561,0.106,4.21,88.0,6,0.8947,keyword_cooccurrence
+66,200,0.0932,5,0.2373,0.1666,6.06,791.03,2,0.9697,co_citation
+185,200,0.0118,54,0.7729,0.0902,2.16,98.88,49,0.3838,bibliographic_coupling
+140,200,0.0206,32,0.8777,0.156,2.86,55.86,29,0.2786,coauthorship

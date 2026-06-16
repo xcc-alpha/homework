@@ -1,0 +1,9 @@
+﻿community,size,top_nodes,mean_pagerank
+2,44,design; logic gates; photonic crystal; xor; realization,0.011838981913211982
+0,38,photonics; optical computing; optical; silicon photonics; silicon,0.009267176248907397
+1,3,reservoir computing; performance; optical feedback,0.007222980155151667
+3,2,interferometer; mach-zehnder,0.010526315789473684
+4,2,microwave photonics; photonic signal processing,0.010526315789473684
+5,2,chaos; synchronization,0.010526315789473684
+6,2,on-chip; system,0.010526315789473684
+7,2,circuits; photonic integrated,0.010526315789473684
